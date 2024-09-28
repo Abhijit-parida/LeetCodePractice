@@ -1,5 +1,10 @@
 package Practice;
 
+/**
+    Given two strings needle and haystack, return the index of the first occurrence of needle in haystack,
+    or -1 if needle is not part of haystack.
+ */
+
 public class FindFirstOccurrence {
 
     public static int strStr(String haystack, String needle) {
@@ -15,11 +20,11 @@ public class FindFirstOccurrence {
         // Iterate through haystack, only go up to the point where needle can still fit
         for (int i = 0; i <= haystackLength - needleLength; i++) {
             // Check if the substring of haystack starting at i matches needle
-            if (haystack.substring(i, i + needleLength).equals(needle)) {
-                return i; // Return the starting index if a match is found
+            if (haystack.substring(i, i + needleLength).equals(needle)) { // substring is a range (start index, end index)
+                // Return the starting index if a match is found
+                return i;
             }
         }
-
         // If no match was found, return -1
         return -1;
     }
