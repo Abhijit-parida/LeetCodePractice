@@ -1,4 +1,4 @@
-package Practice;
+package com.practice.leetcode;
 
 /**
     Given two strings needle and haystack, return the index of the first occurrence of needle in haystack,

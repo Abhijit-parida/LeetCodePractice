@@ -1,4 +1,4 @@
-package Practice;
+package com.practice.leetcode;
 
 /**
     Given an integer x, return true if x is a palindrome, and false otherwise.

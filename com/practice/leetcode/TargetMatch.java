@@ -1,4 +1,4 @@
-package Practice;
+package com.practice.leetcode;
 
 import java.util.Scanner;
 

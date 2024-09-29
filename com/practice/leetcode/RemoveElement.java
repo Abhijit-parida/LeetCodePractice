@@ -1,4 +1,4 @@
-package Practice;
+package com.practice.leetcode;
 
 public class RemoveElement {
 

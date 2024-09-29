@@ -1,4 +1,4 @@
-package Practice;
+package com.practice.leetcode;
 
 /**
     Given an integer array nums sorted in non-decreasing order,

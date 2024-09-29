@@ -1,4 +1,4 @@
-package Practice;
+package com.practice.leetcode;
 
 /**
     Given a string s consisting of words and spaces,
