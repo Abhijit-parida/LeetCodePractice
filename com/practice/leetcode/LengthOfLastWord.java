@@ -8,20 +8,16 @@ package com.practice.leetcode;
 public class LengthOfLastWord {
 
     public static int lengthOfLastWord(String s) {
+
+        String newStr = s.trim();
+
         int length = 0;
-        int i = s.length() - 1;
+        int i = newStr.length()-1;
 
-        // Start from the end of the string and skip any trailing spaces
-        while (i >= 0 && s.charAt(i) == ' ') {
-            i--;
-        }
-
-        // Count the length of the last word
-        while (i >= 0 && s.charAt(i) != ' ') {
+        while (i>=0 && newStr.charAt(i) != ' '){
             length++;
             i--;
         }
-
         return length;
     }
 
