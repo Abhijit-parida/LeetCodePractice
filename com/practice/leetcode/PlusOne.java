@@ -33,17 +33,17 @@ public class PlusOne {
     }
 
     public static void main(String[] args) {
-//        int[] digits1 = {1, 2, 3};
-//        int[] result1 = plusOne(digits1);
-//        printArray(result1);  // Output: [1, 2, 4]
+        int[] digits1 = {1, 2, 3};
+        int[] result1 = plusOne(digits1);
+        printArray(result1);  // Output: [1, 2, 4]
 
         int[] digits2 = {9, 3, 2, 9};
         int[] result2 = plusOne(digits2);
         printArray(result2);  // Output: [4, 3, 2, 2]
 
-//        int[] digits3 = {9, 9, 9};
-//        int[] result3 = plusOne(digits3);
-//        printArray(result3);  // Output: [1, 0, 0, 0]
+        int[] digits3 = {9, 9, 9};
+        int[] result3 = plusOne(digits3);
+        printArray(result3);  // Output: [1, 0, 0, 0]
     }
 
     // Helper method to print an array
