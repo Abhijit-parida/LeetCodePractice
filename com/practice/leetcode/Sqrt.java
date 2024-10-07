@@ -1,5 +1,10 @@
 package com.practice.leetcode;
 
+/**
+    Given a non-negative integer x, return the square root of x rounded down to the nearest integer.
+    The returned integer should be non-negative as well.
+ */
+
 public class Sqrt {
 
     public static int mySqrt(int x) {
@@ -33,7 +38,7 @@ public class Sqrt {
     }
 
     public static void main(String[] args) {
-        int x1 = 8;
+        int x1 = 4;
         System.out.println(mySqrt(x1));  // Output: 2
 
         int x2 = 16;
